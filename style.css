@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame{
+    height:500px;
+    width: 900px;
+    background: white;
+    border: 10px solid  silver;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote{
+    font-family: 'Redressed', cursive;
+    font-size: 40px;
+    color: #107896;
+    height: 100%;
+    width: 100%;
+}
+
+.butn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    padding-top: 30px;
+    line-height: 4rem;
+}
